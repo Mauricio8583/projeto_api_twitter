@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "twitterapi"
+version = "0.1.0"
+description = "teste"
+authors = ["Mauricio Oliveira <mauricio.oliveira8583@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tweepy = "^4.14.0"
+pymongo = "^4.3.3"
+fastapi = "^0.95.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
